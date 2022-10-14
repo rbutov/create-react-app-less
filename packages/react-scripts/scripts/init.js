@@ -184,10 +184,10 @@ module.exports = function (
   const templateScripts = templatePackage.scripts || {};
   appPackage.scripts = Object.assign(
     {
-      start: 'react-scripts start',
-      build: 'react-scripts build',
-      test: 'react-scripts test',
-      eject: 'react-scripts eject',
+      start: 'react-scripts-less start',
+      build: 'react-scripts-less build',
+      test: 'react-scripts-less test',
+      eject: 'react-scripts-lss eject',
     },
     templateScripts
   );
