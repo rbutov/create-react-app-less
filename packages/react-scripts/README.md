@@ -1,6 +1,28 @@
 # react-scripts-less
 
-`_add less support to facebook/react-sripts`
+---
+
+### \_add less support to facebook/react-scripts
+
+\_just replace react-scripts with react-scripts-less in package.json scripts block:
+
+```json lines
+"scripts": {
+    "start": "react-scripts-less start",
+    "build": "react-scripts-less build",
+    "test": "react-scripts-less test",
+}
+```
+
+\_also in your \*.d.ts for typescript project:
+
+```js
+/// <reference types="react-scripts-less" />
+```
+
+ps: add warnings ignoring for source map loader, which is helpful, for example, for ant.design less imports
+
+---
 
 This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app).<br>
 Please refer to its documentation:

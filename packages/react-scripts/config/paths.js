@@ -119,7 +119,8 @@ const reactScriptsLinked =
 // config before publish: we're in ./packages/react-scripts/config/
 if (
   !reactScriptsLinked &&
-  __dirname.indexOf(path.join('packages', 'react-scripts', 'config')) !== -1
+  __dirname.indexOf(path.join('packages', 'react-scripts-less', 'config')) !==
+    -1
 ) {
   const templatePath = '../cra-template/template';
   module.exports = {
