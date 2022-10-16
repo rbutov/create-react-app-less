@@ -10,7 +10,7 @@
 react-scripts: 5.0.1
 ```
 
-\_just replace react-scripts with react-scripts-less in package.json scripts block:
+\_replace react-scripts with react-scripts-less in package.json scripts block:
 
 ```json lines
 "scripts": {
